@@ -1,0 +1,2 @@
+# kimi_for_langchain
+在langchain中使用kimi
