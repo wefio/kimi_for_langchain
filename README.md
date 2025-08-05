@@ -1,4 +1,6 @@
-# [在langchain中使用kimi]()
+# [在langchain中使用kimi](https://github.com/wefio/kimi_for_langchain/blob/main/moonshot_kimi.py)
+## 起因
+学习langchain，kimi里有50元，langchain貌似不能直接用kimi，示例又都是openai。于是尝试兼容。不保证维护，兼容到哪，得看以后还能不能用的到。
 由ai辅助完成<br>
 ## 导入kimi
 简单的兼容了openai的调用方式<br>
