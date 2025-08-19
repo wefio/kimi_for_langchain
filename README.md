@@ -32,3 +32,11 @@ llm = moonshot().llm
 ```
 llm = moonshot(model="moonshot-v1-8k-vision-preview").llm
 ```
+## 好像没什么用的额外功能
+```
+moonshot(verbose=True, chinese=True, no_md=True)
+```
+- 啰嗦模式、强制中文模式、无markdown模式<br>
+注意，中文模式和无markdown模式都是用系统提示词实现的
+## 需要注意的问题
+如果需要真正的纯文本，如sql查询，需要使用langchain的PromptTemplate，不能用无markdown模式替代。如果sql成功了纯属意外，不使用无markdown模式也有可能成功。
